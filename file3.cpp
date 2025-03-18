@@ -11,4 +11,10 @@ float hitungLuasSegitiga(float a, float t){
  int main(){
     int pilihan;
     float panjang, lebar, alas, tinggi;
+    do{
+        cout << "<================Menu=============" << endl;
+        cout << "1. Menghitung luas persegi panjang" << endl;
+        cout << "3. Exit" << endl;
+        cin >> pilihan;
+    }
  }
