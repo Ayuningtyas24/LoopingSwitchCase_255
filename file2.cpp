@@ -6,7 +6,7 @@ using namespace std;
 int main(){
     int x;
     int perulanganWhile = 0;
-    int perulanganDwhile = 0;
+    int perulanganDowhile = 0;
     //Perulangan while
     cout << "perulangan dengan while" << endl;
     srand(time(0));
@@ -24,8 +24,8 @@ int main(){
     do{
         cout << "nilai x = " << x << "Lari keliling lapangan!" << endl;
         x = rand() % 10;
-        perulanganDoWhile++;
+        perulanganDowhile++;
     }while(x < 7);
     cout << "Nilai akhir x = " << x << endl;
-    cout << "Jumlah perulangan = " << perulanganDoWhile << endl;
+    cout << "Jumlah perulangan = " << perulanganDowhile << endl;
 }
