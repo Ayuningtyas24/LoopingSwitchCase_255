@@ -17,4 +17,7 @@ int main(){
         x = rand() % 10;
         perulanganWhile++;
     }
+    cout << "Nilai akhir x = " << x << endl;
+    cout << "Jumlah perulangan = " << perulanganWhile << endl;
+    cout << endl;
 }
